@@ -14,9 +14,9 @@ namespace AuctionSite.DAL
 
         //AuctionSite.DAL.AuctionDbContext
         public AuctionDbContext()
-            : base("AuctionSiteDatabase")
+            : base("name=DefaultConnection")
         {
-
         }
+
     }
 }
